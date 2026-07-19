@@ -4,7 +4,7 @@ from langchain_community.vectorstores import Chroma
 from langchain_mistralai import ChatMistralAI
 from langchain_core.prompts import ChatPromptTemplate
 
-load_dotenv()
+load_dotenv() 
 
 embedding_model = MistralAIEmbeddings()
 
